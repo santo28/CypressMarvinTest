@@ -10,7 +10,7 @@ describe('My First Test', () => {
       cy.get('[name="firstName"]').type('santo28')
       cy.get('[name="lastName"]').type('Santos1')
       cy.get('[name="email"]').first().type("santos171292@gmail.com")
-      cy.get("div.stepped-form_nextButton").first().click({force: true})
+      cy.get("div.stepped-form_nextButton").first().click()
   })
 
 })
